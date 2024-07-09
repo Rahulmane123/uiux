@@ -1,0 +1,161 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(img/desktop-wallpaper-3d-medicine-drug.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.heading {
+    background-color: green;
+    height: 60px;
+    display: flex;
+}
+
+.label {
+    color: white;
+    font-family: Arial;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.btn1 {
+    margin-left: 990px;
+    width: 70px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.btn2 {
+    width: 70px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+
+/* ------------------------------------- */
+
+.registration {
+    background-color: rgb(7, 169, 232);
+    width: 420px;
+    height: 400px;
+    margin-top: 100px;
+    border-radius: 1px;
+    border: 2px solid black;
+    background-image: url(img/download\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.title {
+    margin: 0px;
+    padding: 10px;
+    margin-left: 20px;
+    color: green;
+}
+
+.form-feild1 {
+    margin-left: 20px;
+    padding-left: 20px;
+    border: 1px solid black;
+}
+
+.form-feild2 {
+    margin-left: 5px;
+    padding-left: 20px;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+.form-feild3 {
+    margin-left: 20px;
+    padding-left: 20px;
+    margin-right: 10px;
+    border: 1px solid black;
+    width: 356px;
+}
+
+.form-feild4 {
+    margin-left: 20px;
+    padding-left: 20px;
+    border: 1px solid black;
+}
+
+.form-feild5 {
+    margin-left: 5px;
+    padding-left: 20px;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+.radiobtn {
+    margin-left: 25px;
+}
+
+.radio-label {
+    font-weight: bold;
+}
+
+.date {
+    margin-right: 20px;
+    margin-left: 30px;
+    padding-left: 24px;
+    width: 160px;
+    border: 1px solid black;
+}
+
+.mobileno {
+    margin-left: 20px;
+    padding-left: 20px;
+    border: 1px solid black;
+}
+
+#city {
+    margin-left: 5px;
+    margin-right: 10px;
+    padding-left: 20px;
+    border: 1px solid black;
+    width: 180px;
+}
+
+.health-info {
+    margin-left: 25px;
+}
+
+.infobox {
+    margin-left: 20px;
+    margin-right: 10px;
+    border: 1px solid black;
+    height: 40px;
+    width: 375px;
+}
+
+.checkboxbtn {
+    margin-left: 20px;
+}
+
+.footer {
+    padding-top: 20px;
+    float: right;
+    margin-right: 20px;
+}
+
+.save-btn {
+    width: 100px;
+    padding: 2px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+.save-btn:hover {
+    background-color: rgb(0, 255, 119);
+    color: black;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+}
