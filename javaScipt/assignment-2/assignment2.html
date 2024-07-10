@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .section {
+            border: 1px solid;
+            padding: 30px;
+            width: 600px;
+            background-image: url('img.jpeg');
+            background-size: cover;
+            margin-left: 400px;
+        }
+        
+        .item {
+            width: 200px;
+            margin: 40px;
+            padding: 5px;
+            border: 1px solid black;
+            background-color: silver;
+        }
+        
+        h3 {
+            margin-left: 45px;
+            border: 1px solid black;
+            background-color: silver;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="margin-left: 430px;">JavaScript Radio Button event handling</h1>
+
+    <div class="section">
+        <div class="item">
+            <input type="checkbox" id="c1" value="HAMBURGER" onchange="selectOption(this)" />
+            <label for="c1">HAMBURGER</label>
+        </div>
+
+        <div class="item">
+            <input type="checkbox" id="c2" value="MED FRIES" onchange="selectOption(this)" />
+            <label for="c2">MED FRIES</label>
+        </div>
+
+        <div class="item">
+            <input type="checkbox" id="c3" value="MCFLURRY" onchange="selectOption(this)" />
+            <label for="c3">MCFLURRY </label>
+        </div>
+
+        <div class="item">
+            <input type="checkbox" id="c4" value="HOTCAKES" onchange="selectOption(this)" />
+            <label for="c4">HOTCAKES </label>
+        </div>
+
+        <div class="h3">
+            <h3 id="ch-ans">[</h3>
+        </div>
+    </div>
+    <script>
+        var food = new Set(); //only allow user to add unique item
+        function selectOption(target) {
+            //console.log(target.value);
+            if (target.checked == true)
+                food.add(target.value);
+            else
+                food.delete(target.value);
+
+            console.log(food);
+
+            document.getElementById("ch-ans").innerHTML = Array.from(food);
+
+
+        }
+    </script>
+</body>
+
+</html>
